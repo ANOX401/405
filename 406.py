@@ -332,7 +332,7 @@ def rcrack(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; POT-AL00a Build/HUAWEIPOT-AL00a; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.99 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/273.0.0.39.123;]',}
+    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36]',}
 			lo = session.post('https://x.facebook.com/?stype=lo&jlou=AfeBh1P5XSlSM2wms2C4U9Hnl-2G6_2Hu6YuPY48KB5TIXB6DvoWscdFgWbOPrLKsVL0Kgk3OXFhVxwRM2moqOmStv3iCJMU3SWceuZ4YHNsxQ&smuh=1245&lh=Ac_u--FyoUL4CN2u9NE&wtsid',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 
